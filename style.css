@@ -98,3 +98,39 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+.summary-area {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary {
+    display: flex;
+}
+
+.summary-name {
+    padding-left: 0.5rem;
+}
+
+.summary-score {
+    padding-left: auto;
+    padding-right: 0;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.continue {
+    background-color: var(--dark-gray-blue);
+    border: none;
+    text-align: center;
+    padding: 0.6rem 1.5rem;
+    width: 100%;
+    border-radius: 20px;
+    color: var(--white);
+}
